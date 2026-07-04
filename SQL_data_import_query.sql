@@ -1,0 +1,6 @@
+LOAD DATA LOCAL INFILE '**file Location**'
+INTO TABLE 'table_name'
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 rows;
